@@ -1,0 +1,265 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* body{
+    background-color: steelblue;
+    
+} */
+
+#signup {
+  /* background-image: url("https://www.webfx.com/wp-content/uploads/2023/08/36_responsive_background_image.png"); */
+
+  padding: 39px;
+
+  background-color:rgb(21, 102, 172);
+
+
+}
+
+
+
+
+
+#h {
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0px 1px 10px 10px white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#blur {
+  /* backdrop-filter: blur(10px); */
+  /* background-color:  rgb(13, 108, 216); */
+  width: 380px;
+  height: 530px;
+  margin-left: 500px;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px 10px rgb(8, 4, 70);
+}
+
+@media(max-width:960px) {
+  #blur {
+    margin-left: 1px;
+  }
+}
+
+@media(max-width:236px) {
+  #blur {
+    margin-left: 1px;
+  }
+}
+
+
+
+#login {
+
+
+  padding: 39px;
+
+  background-color:rgb(21, 102, 172);
+
+
+}
+
+#form {
+  backdrop-filter: blur(10px);
+  /* background-color: rgb(13, 108, 216); */
+  width: 380px;
+  height: 390px;
+  margin-left: 500px;
+  padding-left: 15px;
+  margin-bottom: 141px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px 10px rgb(8, 4, 70);
+
+}
+
+@media(max-width:960px) {
+  #form {
+    margin-left: 1px;
+
+  }
+}
+
+@media(max-width:236px) {
+  #form {
+    margin-left: 1px;
+  }
+}
+
+
+.item {
+  flex: 50px;
+  padding: 10px;
+
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+
+  padding: 10px;
+
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: Black;
+}
+
+.parent {
+  display: flex;
+  gap: 30px;
+  /* background-color: rgb(182, 227, 22); */
+}
+
+@media(max-width:635px) {
+  .parent {
+    display: inline;
+    /* background-color: rgb(182, 227, 22); */
+
+
+  }
+
+}
+
+.child1 {
+  background-color: light white;
+  width: 330px;
+  padding: 10px;
+
+
+}
+
+.child2 {
+  display: grid;
+
+
+}
+
+.child2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+
+
+}
+
+@media(max-width:1368px) {
+  .child2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media(max-width:1150px) {
+  .child2 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+
+@media(max-width:900px) {
+  .child2 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+}
+
+.fo {
+
+  display: flex;
+
+  width: auto;
+  background-color: rgba(240, 247, 215, 0.871);
+  padding-top: 30px;
+
+}
+
+.fo {
+  display: flex;
+  flex: auto auto auto;
+}
+
+@media (max-width:1368px) {
+  .fo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: none;
+    justify-content: none;
+    text-align: center;
+
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 750px;
+    background-color: none;
+  }
+}
+
+
+@media (max-width:1350px) {
+  .fo {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: none;
+    justify-content: none;
+    text-align: center;
+
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 750px;
+    background-color: none;
+  }
+}
+
+@media (max-width:900px) {
+  .fo {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: none;
+    justify-content: none;
+    text-align: center;
+
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 750px;
+
+  }
+}
+
+@media (max-width:635px) {
+  .fo {
+    display: inline;
+    grid-template-columns: none;
+    margin-left: none;
+    justify-content: none;
+    text-align: center;
+
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 750px;
+
+  }
+}
+
+.con {
+
+  display: flex;
+
+
+}
